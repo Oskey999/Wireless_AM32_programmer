@@ -19,6 +19,8 @@ with password : flashme123
 
 you can access the gui at http://am32.local
 
+programming can be very unintuiitve because it is just the bytes for now, for fully understanding the bytes refer to here: https://wiki.am32.ca/development/Open-ESC-EEPROM-Format.html
+
 # Modifications
 change wifi properties such as name and password in wifi_comm.cpp with
 ''' cpp
@@ -27,4 +29,6 @@ static const char *AP_PASS = "flashme123"; // 8+ chars required by WiFi.softAP
 static const char *MDNS_HOSTNAME = "am32"; // -> http://am32.local
 '''
 change GPIO pin in Global.h through #define SERVO_OUT
+
+
 
